@@ -1,0 +1,105 @@
+* {
+  
+    background-color: #1C2A44;;
+}
+
+span{
+    background-color:rgb(210, 216, 222);
+    font-size: 30px;
+    
+    font-family: 'Bebas Neue', cursive;
+}
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.maindiv {
+
+    width: 500px;
+    height: 60vh;
+    border: 0.1px solid #099FFF;
+    border-radius: 20px;
+    background-color: rgb(210, 216, 222);
+    box-shadow: 0 4px 8px 0 #00ffff, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+    width: 170px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 10px;
+    border: solid 1px rgb(143, 141, 141);
+}
+h3{
+    background-color: rgb(210, 216, 222);
+    margin-left: 210px;
+    margin-top: -10px;
+    font-weight:100 ;
+    font-family: monospace;
+}
+.qr{
+    border-radius: 5px;
+    width: 50px;
+    margin-top:1px;
+    margin-left: 10px;
+}
+
+.bi-facebook {
+    background-color: rgb(210, 216, 222);
+    color: #3b5998;
+}
+
+.icone {
+    margin-top: 90px;
+    display: flex;
+    text-align: center;
+
+
+
+}
+
+.icone div {
+    padding-top: 10px;
+    width: 100px;
+    border:rgb(210, 216, 222) solid 0px;
+    background-color: rgb(210, 216, 222);
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(210, 216, 222);
+}
+.bi-linkedin{
+    background-color: rgb(210, 216, 222);
+    color: #0072b1;
+}
+.bi-github{
+  color: #333;
+  background-color: rgb(210, 216, 222);
+}
+.bi-telegram{
+    background-color: rgb(210, 216, 222);
+    color: #0088CC; 
+}
+.header{
+    font-family: cursive;
+    font-size: 15px;
+    font-weight: lighter;
+}
+a:after {
+    display: block;
+    content: '';
+    border-bottom: solid 4px #1C2A44;
+    padding-bottom: 5%;
+    transform: scaleX(0);
+    transition: transform 300ms ease-in-out;
+    
+}
+
+a:hover:after {
+    transform: scaleX(1);
+}
